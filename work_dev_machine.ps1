@@ -32,7 +32,6 @@ $Applications = @(
 	"Microsoft.WindowsPhone"
 	"Microsoft.WindowsSoundRecorder"
 	"*Solitaire*"
-	"Microsoft.MicrosoftStickyNotes"
 	"Microsoft.Office.Sway"
 	"Microsoft.NetworkSpeedTest"
 	"Microsoft.FreshPaint"
