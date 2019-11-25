@@ -5,8 +5,8 @@
 #http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/DeluxZ/DevMachineAutomation/master/work_dev_machine.ps1
 
 # Install BoxStarter
-#Set-ExecutionPolicy RemoteSigned
-#. { iwr -useb http://boxstarter.org/bootstrapper.ps1 } | iex; get-boxstarter -Force
+Set-ExecutionPolicy RemoteSigned
+. { iwr -useb http://boxstarter.org/bootstrapper.ps1 } | iex; get-boxstarter -Force
 
 # Disable UAC
 Disable-UAC
@@ -76,36 +76,36 @@ foreach ($app in $Applications) {
 }
 
 # Install Windows Subsystem for Linux
-#Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 
 # Enable Hyper-V
-#Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 
 # Install applications
-#choco install azure-data-studio -y                          # Azure Data Studio
+choco install azure-data-studio -y                          # Azure Data Studio
                                                             # Catlight
-#choco install ditto -y                                      # Ditto
-#choco install docker-desktop -y                             # Docker Desktop
-#choco install git-fork -y                                   # Fork
-#choco install googlechrome -y                               # Google Chrome
-#choco install lastpass -y                                   # LastPass
-#choco install microsoftazurestorageexplorer -y              # Microsoft Azure Storage Explorer
-#choco install sql-server-management-studio -y               # Microsoft SQL Server Management Studio
-#choco install microsoft-teams -y                            # Microsoft Teams
-#choco install vscode -y                                     # Microsoft Visual Studio Code
-#choco install visualstudio2017enterprise --locale En-us -y  # Microsoft Visual Studio 2017 Enterprise
-#choco install visualstudio2019enterprise --locale En-us -y  # Microsoft Visual Studio 2019 Enterprise
-#choco install firefox --params "l=en-US" -y                 # Mozilla Firefox
-#choco install nodejs-lts -y                                 # NodeJS (LTS)
-#choco install nugetpackageexplorer -y                       # Microsoft Nuget Package Explorer
-#choco install poshgit -y                                    # Poshgit
-#choco install postman -y                                    # Postman
-#choco install slack -y                                      # Slack
+choco install ditto -y                                      # Ditto
+choco install docker-desktop -y                             # Docker Desktop
+choco install git-fork -y                                   # Fork
+choco install googlechrome -y                               # Google Chrome
+choco install lastpass -y                                   # LastPass
+choco install microsoftazurestorageexplorer -y              # Microsoft Azure Storage Explorer
+choco install sql-server-management-studio -y               # Microsoft SQL Server Management Studio
+choco install microsoft-teams -y                            # Microsoft Teams
+choco install vscode -y                                     # Microsoft Visual Studio Code
+choco install visualstudio2017enterprise --locale En-us -y  # Microsoft Visual Studio 2017 Enterprise
+choco install visualstudio2019enterprise --locale En-us -y  # Microsoft Visual Studio 2019 Enterprise
+choco install firefox --params "l=en-US" -y                 # Mozilla Firefox
+choco install nodejs-lts -y                                 # NodeJS (LTS)
+choco install nugetpackageexplorer -y                       # Microsoft Nuget Package Explorer
+choco install poshgit -y                                    # Poshgit
+choco install postman -y                                    # Postman
+choco install slack -y                                      # Slack
                                                             # Spotbright
-#choco install diffmerge -y                                  # SourceGear DiffMerge
-#choco install stack -y                                      # Stack storage
-#choco install wsl-ubuntu-1804 -y                            # Ubuntu WSL
-#choco install whatsapp -y                                   # Whatsapp
+choco install diffmerge -y                                  # SourceGear DiffMerge
+choco install stack -y                                      # Stack storage
+choco install wsl-ubuntu-1804 -y                            # Ubuntu WSL
+choco install whatsapp -y                                   # Whatsapp
 
 # Visual Studio Code Extensions
 #code --install-extension 1tontech.angular-material
