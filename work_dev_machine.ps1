@@ -5,7 +5,7 @@
 #http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/DeluxZ/DevMachineAutomation/master/work_dev_machine.ps1
 
 # Install BoxStarter
-Set-ExecutionPolicy RemoteSigned
+Set-ExecutionPolicy Unrestricted
 . { iwr -useb http://boxstarter.org/bootstrapper.ps1 } | iex; get-boxstarter -Force
 
 # Disable UAC
