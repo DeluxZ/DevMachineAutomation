@@ -93,7 +93,7 @@ choco install microsoftazurestorageexplorer -y              # Microsoft Azure St
 choco install sql-server-management-studio -y               # Microsoft SQL Server Management Studio
 choco install microsoft-teams -y                            # Microsoft Teams
 choco install vscode -y                                     # Microsoft Visual Studio Code
-choco install visualstudio2017enterprise --locale En-us -y  # Microsoft Visual Studio 2017 Enterprise
+#choco install visualstudio2017enterprise --locale En-us -y  # Microsoft Visual Studio 2017 Enterprise
 choco install visualstudio2019enterprise --locale En-us -y  # Microsoft Visual Studio 2019 Enterprise
 choco install firefox --params "l=en-US" -y                 # Mozilla Firefox
 choco install nodejs-lts -y                                 # NodeJS (LTS)
